@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <title>Vite App</title>
+    <body>
+    <div class="container-fluid bg-light">
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <div class="col position-relative">
+              <div class="purple"></div>
+              <div class="purple-circle position-relative"></div>
+            </div>
+            <div class="col">
+              <div class="phone position-absolute bg-light">
+                <div class="phone-top-purple position-relative">
+                  <div class="Account input-group position-absolute d-flex">
+                    <i class="bi bi-chevron-compact-left text-white mt-1 mx-1"></i>
+                    <img src="./chat-app-css-illustration-master/images/avatar.jpg" width="30px" height="30px" alt="" class="rounded rounded-5">
+                    <div class="d-flex flex-column ms-3 mb-2">
+                      <div class="text-white" style="font-size:15px ;"> Samuel Green</div>
+                      <div class="text-white-50" style="font-size:10px ;">  Available to Walk</div>
+                    </div>
+                    <div class=" text-white ms-5">
+                      <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="back-camera"></div>
+
+                <div class="conversation d-flex flex-column justify-content-between">
+                  <div class="ms-2 mt-2 chat-left text-white-50 p-1"> That sounds great. I’d be happy with that.</div>
+                  <div class="ms-2 mt-2 chat-left text-white-50 p-1">  Could you send over some pictures of your dog, please?</div>
+                  <div class="text-end mt-2 me-2">
+                    <img class="rounded rounded-3" src="./chat-app-css-illustration-master/images/dog-image-1.jpg" alt="" width="40px">
+                    <img class="rounded rounded-3" src="./chat-app-css-illustration-master/images/dog-image-2.jpg" alt="" width="40px">
+                    <img class="rounded rounded-3" src="./chat-app-css-illustration-master/images/dog-image-3.jpg" alt="" width="40px">
+                  </div>
+                  <div class="mt-2 text-end chat-right p-1">Here are a few pictures. She’s a happy girl!</div> 
+                  <div class="mt-2 text-end chat-right p-1 right-bottom">   Can you make it?</div>
+                  <div class=" mt-2 chat-left text-white-50 p-1">  She looks so happy! The time we discussed works. How long shall I take her out for?</div>
+                  
+                  <div class="w-75 mt-2 d-flex p-1 rounded rounded-3 radio-buttob">
+                    <input type="radio" class="mt-2 me-2 form-check-input" id="age1" value="30">
+                    <label for="age1" class=" mt-2" style="color: hsla(0, 0%, 100%, 0.782);"> 30 minute walk</label>
+                    <div class="text-white fs-5 fw-bold">$29</div>
+                  </div>
+                  <div class="w-75 mt-2 d-flex p-1 rounded rounded-3 radio-buttob">
+                    <input type="radio" class="mt-2 ms-1 me-2 form-check-input" id="age1" value="30">
+                    <label for="age1" class=" mt-2" style="color: hsla(0, 0%, 100%, 0.782);"> 30 minute walk</label>
+                    <div class="text-white fs-5 fw-bold">$29</div>
+                  </div>
+
+                  <div class="input-group input-group-sm mt-2 position-relative">
+                    <input type="text" class="form-control rounded rounded-5" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">                 
+                     <i class="bi bi-arrow-right-circle-fill fs-4 position-absolute" style="right: 0;"></i>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 d-flex flex-column justify-content-center  position-relative">
+          <div class="d-flex flex-column justify-content-center align-item-center ms-5 mb-5 position-absolute leftTextLong">
+            <div class=" mb-4 fw-bold fs-2 mt-2">Simple booking</div>
+            <div class=" mb-2 text-muted">
+              Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+              discuss arrangements and make bookings. Once the walk has been completed you can rate 
+              your walker and book again all through the chat.
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
